@@ -33,7 +33,7 @@
           Boot-to-Gecko and WebAPI
         </h1>
         <p>
-          Mounir Lamouri &#38 Vivien Nicolas
+          Mounir Lamouri &#38; Vivien Nicolas
           <br>
           12th November 2011
         </p>
@@ -50,7 +50,7 @@
           <li>Android</li>
           <li>iOS</li>
           <li>WP7</li>
-          <li>BlackBerry</li>
+          <li>Blackberry</li>
           <li>Maemo/Meego</li>
           <li>WebOS</li>
           <li>...</li>
@@ -65,19 +65,26 @@
           <li>Promote web technologies</li>
           <li>Enpower the web platform</li>
         </ul>
+        <div class="source">
+          Source: <a href="https://wiki.mozilla.org/B2G">https://wiki.mozilla.org/B2G</a>
+        </div>
       </article>
 
       <article>
-        <h2>
-          Mozilla's Response
-        </h2>
+        <h2>An unofficial history</h2>
         <ul>
           <li>25th of July 2011: B2G is born</li>
-          <li>Fathers: Andreas Gal & Chris Jones</li>
+          <li>Fathers: Andreas Gal &#38; Chris Jones</li>
           <li>Early September: API prototypes</li>
           <li>Early October: UI prototypes</li>
           <li>November: first APIs in Gecko (eg. Battery API)</li>
-          <li>Next: WebVibrator, WebSMS, WebTelephony, ...</li>
+        </ul>
+        <h3>
+          What's next ?
+        </h3>
+        <ul>
+          <li>Vibrator, SMS, Telephony, ...</li>
+          <li>Touch events, Embedded browser, ...</li>
         </ul>
       </article>
 
@@ -87,11 +94,20 @@
 
       <article>
         <h2>Hardware</h2>
-        Very-low level code specific to each phone
+        <i>Very-low level code specific to each phone</i>
+        <ul>
+          <li>Phone</li>
+          <li>SMS</li>
+          <li>Camera</li>
+          <li>Battery</li>
+          <li>Vibrator</li>
+          <li>...</li>
+        </ul>
       </article>
 
       <article>
         <h2>Gonk</h2>
+        <i>Layer between hardware and Gecko</i>
         <ul>
           <li>Android fork</li>
           <li>Stripped from Android APIs</li>
@@ -101,34 +117,40 @@
 
       <article>
         <h2>WebAPI</h2>
+        <i>Layer between Gecko and and the Web</i>
         <ul>
           <li>Enpower the web platform</li>
           <li>Add device interactions capabilities to Gecko</li>
           <li>Create new Web standards</li>
+          <li>Working with W3C</li>
         </ul>
       </article>
 
       <article>
         <h2>Security Model</h2>
         <ul>
-          <li>?</li>
-          <li>awww</li>
-          <li>hmmm</li>
-        </ul>
-      </article>
-
-      <article>
-        <h2>WebApps</h2>
-        <ul>
-          <li>Apps store</li>
+          <li>Nothing concrete</li>
+          <li>We know what we don't want</li>
+          <li>We do not know what we want</li>
         </ul>
       </article>
 
       <article>
         <h2>Gaia</h2>
+        <h3>
+          Homescreen
+        </h3>
         <ul>
-          <li>WebApp</li>
-          <li>General phone UI</li>
+          <li>Separe project</li>
+          <li>Phone UI</li>
+        </ul>
+        <h3>
+          WebApps
+        </h3>
+        <ul>
+          <li>Everything is a WebApp</li>
+          <li>Permissions (security model)</li>
+          <li>Open Apps store</li>
         </ul>
       </article>
 
@@ -136,6 +158,7 @@
         <h1>
           <iframe src="file:///home/vivien/Devel/gaia/homescreen.html" style="width: 400px; height: 650px; margin-top: -225px; margin-left: 200px"></iframe>
         </h1>
+      </article>
       </article>
 
       <article>
@@ -146,15 +169,15 @@
           We do not want to:
         </h3>
         <ul>
-          <li>ship a phone;</li>
-          <li>be installable in existing phones.</li>
+          <li>Ship a phone</li>
+          <li>Be installable in existing phones.</li>
         </ul>
         <h3>
           We want to:
         </h3>
         <ul>
-          <li>ship pre-installed in a phone;<li>
-          <li>be available in a phone in a store next to your home.</li>
+          <li>Ship pre-installed in a phone<li>
+          <li>Be available in a phone in a store next to your home</li>
         </ul>
       </article>
 
@@ -179,14 +202,14 @@
           Q4 2011
         </h3>
         <ul>
-          <li>Developers will be able to use B2G as day-to-day phone;</li>
-          <li>Dialer, SMS app, Home screen, Web browser and Contacts manager.</li>
+          <li>Developers will be able to use B2G as day-to-day phone</li>
+          <li>Dialer, SMS app, Home screen, Web browser and Contacts manager</li>
         </ul>
         <h3>
           Q1 2012
         </h3>
         <ul>
-          <li>Demo of a real product;</li>
+          <li>Demo of a real product</li>
           <li>App store, Camera, Gallery, Media player, Full browser, Settings manager, eBook reader, ...</li>
         </ul>
         <h3>
@@ -218,10 +241,10 @@
           What can I do?
         </h3>
         <ul>
-          <li>Contribute to specifications;</li>
-          <li>Implement specifications;</li>
-          <li>Write backends;</li>
-          <li>Tests.</li>
+          <li>Contribute to specifications</li>
+          <li>Implement specifications</li>
+          <li>Write backends</li>
+          <li>Tests</li>
         </ul>
         <h3>
           Resources
@@ -233,14 +256,21 @@
 
       <article>
         <h2>
-          Gaia
+          Gonk &#38; Gaia
         </h2>
         <ul>
-          <li>Contribute to UI/UX</li>
+          <li>Implement low level code</li>
+          <li>Help cleaning the build system</li>
+          <li>Contribute to UX</li>
           <li>Create WebApps</li>
-          <li>Fix bugs</li>
-          <li>Try it on desktop</li>
-          <li>http://github.com/andreasgal/gaia</li>
+        </ul>
+        <h3>
+          Resources
+        </h3>
+        <ul>
+          <li>#b2g &#38; #gaia on irc.mozilla.org</li>
+          <li>Gonk: http://github.com/andreasgal/B2G</li>
+          <li>Gaia: http://github.com/andreasgal/gaia</li>
         </ul>
       </article>
 
@@ -249,8 +279,6 @@
           Questions?
         </h1>
       </article>
-
     </section>
-
   </body>
 </html>
